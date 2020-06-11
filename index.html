@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-responsive.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="assets/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+  <script src="assets/js/main.js" type="text/javascript"></script>
+
+  <title>REST API Resources</title>
+</head>
+<body>
+  <div class="header">
+    <div class="top-bar">
+      <h1 id="logo"><a class="logo" href="/"><span>Swagger</span><span class="light">API Docs</span></a></h1>
+    </div>
+  </div>
+  <div class="model-container"></div>
+  <div class="content">
+    <div class="box clearfix">
+      <div class="sidebar">
+        <div class="section-box">
+          <div class="section-header">
+            Overview
+          </div>
+          <ul>
+            <li>Getting Started</li>
+          </ul>
+        </div>
+        <div class="section-box">
+          <div class="section-header">
+            <a href="#!/AgentControllerApi">AgentControllerApi</a>
+          </div>
+          <ul>
+            <li><a href="#!/AgentControllerApi#getAgentById">getAgentById</a></li>
+            <li><a href="#!/AgentControllerApi#getAgentByName">getAgentByName</a></li>
+            <li><a href="#!/AgentControllerApi#getAllAgents">getAllAgents</a></li>
+            <li><a href="#!/AgentControllerApi#testAgent">testAgent</a></li>
+          </ul>
+        </div>
+        <div class="section-box">
+          <div class="section-header">
+            <a href="#!/CacheControllerApi">CacheControllerApi</a>
+          </div>
+          <ul>
+            <li><a href="#!/CacheControllerApi#deleteObject">deleteObject</a></li>
+            <li><a href="#!/CacheControllerApi#getObject">getObject</a></li>
+            <li><a href="#!/CacheControllerApi#getUserObjects">getUserObjects</a></li>
+            <li><a href="#!/CacheControllerApi#purgeUserCache">purgeUserCache</a></li>
+            <li><a href="#!/CacheControllerApi#updateObject">updateObject</a></li>
+          </ul>
+        </div>
+        <div class="section-box">
+          <div class="section-header">
+            <a href="#!/DataServerControllerApi">DataServerControllerApi</a>
+          </div>
+          <ul>
+            <li><a href="#!/DataServerControllerApi#createDataServer">createDataServer</a></li>
+            <li><a href="#!/DataServerControllerApi#createSchema">createSchema</a></li>
+            <li><a href="#!/DataServerControllerApi#deleteDataServerById">deleteDataServerById</a></li>
+            <li><a href="#!/DataServerControllerApi#deleteSchemaById">deleteSchemaById</a></li>
+            <li><a href="#!/DataServerControllerApi#getAllDataServerNames">getAllDataServerNames</a></li>
+            <li><a href="#!/DataServerControllerApi#getAllDataServers">getAllDataServers</a></li>
+            <li><a href="#!/DataServerControllerApi#getAllDataServersByTechno">getAllDataServersByTechno</a></li>
+            <li><a href="#!/DataServerControllerApi#getAllDataServersTree">getAllDataServersTree</a></li>
+            <li><a href="#!/DataServerControllerApi#getAllTechnologies">getAllTechnologies</a></li>
+            <li><a href="#!/DataServerControllerApi#getBICCOfferings">getBICCOfferings</a></li>
+            <li><a href="#!/DataServerControllerApi#getDataServerById">getDataServerById</a></li>
+            <li><a href="#!/DataServerControllerApi#getDataServerByName">getDataServerByName</a></li>
+            <li><a href="#!/DataServerControllerApi#getDataServerSchemas">getDataServerSchemas</a></li>
+            <li><a href="#!/DataServerControllerApi#getDatatypesByTechno">getDatatypesByTechno</a></li>
+            <li><a href="#!/DataServerControllerApi#getDefaultJDBCByTechno">getDefaultJDBCByTechno</a></li>
+            <li><a href="#!/DataServerControllerApi#getFunctionsByTechno">getFunctionsByTechno</a></li>
+            <li><a href="#!/DataServerControllerApi#getLiveSchemas">getLiveSchemas</a></li>
+            <li><a href="#!/DataServerControllerApi#getNetSuiteTypes">getNetSuiteTypes</a></li>
+            <li><a href="#!/DataServerControllerApi#getSupportedTechnologies">getSupportedTechnologies</a></li>
+            <li><a href="#!/DataServerControllerApi#updateDataServer">updateDataServer</a></li>
+          </ul>
+        </div>
+        <div class="section-box">
+          <div class="section-header">
+            <a href="#!/DataStoreControllerApi">DataStoreControllerApi</a>
+          </div>
+          <ul>
+            <li><a href="#!/DataStoreControllerApi#createDataStore">createDataStore</a></li>
+            <li><a href="#!/DataStoreControllerApi#deleteDataStoreById">deleteDataStoreById</a></li>
+            <li><a href="#!/DataStoreControllerApi#getAllDataStoreNames">getAllDataStoreNames</a></li>
+            <li><a href="#!/DataStoreControllerApi#getAllDataStores">getAllDataStores</a></li>
+            <li><a href="#!/DataStoreControllerApi#getColumnDataTypes">getColumnDataTypes</a></li>
+            <li><a href="#!/DataStoreControllerApi#getDataStoreById">getDataStoreById</a></li>
+            <li><a href="#!/DataStoreControllerApi#getDataStoreTypes">getDataStoreTypes</a></li>
+            <li><a href="#!/DataStoreControllerApi#reverseEngineerDataStoreCustom">reverseEngineerDataStoreCustom</a></li>
+            <li><a href="#!/DataStoreControllerApi#reverseEngineerDataStoreStandard">reverseEngineerDataStoreStandard</a></li>
+            <li><a href="#!/DataStoreControllerApi#updateDataStore">updateDataStore</a></li>
+          </ul>
+        </div>
+        <div class="section-box">
+          <div class="section-header">
+            <a href="#!/JobControllerApi">JobControllerApi</a>
+          </div>
+          <ul>
+            <li><a href="#!/JobControllerApi#createScheduleForScenario">createScheduleForScenario</a></li>
+            <li><a href="#!/JobControllerApi#deleteScenarioByGlobalId">deleteScenarioByGlobalId</a></li>
+            <li><a href="#!/JobControllerApi#deleteScheduleById">deleteScheduleById</a></li>
+            <li><a href="#!/JobControllerApi#deleteSessionByGlobalId">deleteSessionByGlobalId</a></li>
+            <li><a href="#!/JobControllerApi#deleteSessions">deleteSessions</a></li>
+            <li><a href="#!/JobControllerApi#executeMapping">executeMapping</a></li>
+            <li><a href="#!/JobControllerApi#executePackage">executePackage</a></li>
+            <li><a href="#!/JobControllerApi#executeScenario">executeScenario</a></li>
+            <li><a href="#!/JobControllerApi#getAllRunnableObjects">getAllRunnableObjects</a></li>
+            <li><a href="#!/JobControllerApi#getAllScenarioSchedules">getAllScenarioSchedules</a></li>
+            <li><a href="#!/JobControllerApi#getAllScenarios">getAllScenarios</a></li>
+            <li><a href="#!/JobControllerApi#getAllSessions">getAllSessions</a></li>
+            <li><a href="#!/JobControllerApi#getRuntimeSchedules">getRuntimeSchedules</a></li>
+            <li><a href="#!/JobControllerApi#getScenarioById">getScenarioById</a></li>
+            <li><a href="#!/JobControllerApi#getScheduleById">getScheduleById</a></li>
+            <li><a href="#!/JobControllerApi#getSchedulesForMapping">getSchedulesForMapping</a></li>
+            <li><a href="#!/JobControllerApi#getSchedulesForPackage">getSchedulesForPackage</a></li>
+            <li><a href="#!/JobControllerApi#getSchedulesForScenario">getSchedulesForScenario</a></li>
+            <li><a href="#!/JobControllerApi#getSessionByGlobalId">getSessionByGlobalId</a></li>
+            <li><a href="#!/JobControllerApi#getSessionById">getSessionById</a></li>
+            <li><a href="#!/JobControllerApi#getSessionDetailsByGlobalId">getSessionDetailsByGlobalId</a></li>
+            <li><a href="#!/JobControllerApi#getSessionDetailsById">getSessionDetailsById</a></li>
+            <li><a href="#!/JobControllerApi#getSessionStepById">getSessionStepById</a></li>
+            <li><a href="#!/JobControllerApi#getSessionTaskById">getSessionTaskById</a></li>
+            <li><a href="#!/JobControllerApi#getSessionTaskDebugById">getSessionTaskDebugById</a></li>
+            <li><a href="#!/JobControllerApi#getSessionsByMapping">getSessionsByMapping</a></li>
+            <li><a href="#!/JobControllerApi#getSessionsByPackage">getSessionsByPackage</a></li>
+            <li><a href="#!/JobControllerApi#getSessionsByProject">getSessionsByProject</a></li>
+            <li><a href="#!/JobControllerApi#getSessionsByStatus">getSessionsByStatus</a></li>
+            <li><a href="#!/JobControllerApi#rerunSessionById">rerunSessionById</a></li>
+            <li><a href="#!/JobControllerApi#restartSessionById">restartSessionById</a></li>
+            <li><a href="#!/JobControllerApi#startNewJob">startNewJob</a></li>
+            <li><a href="#!/JobControllerApi#stopSessionById">stopSessionById</a></li>
+            <li><a href="#!/JobControllerApi#testDataServer">testDataServer</a></li>
+            <li><a href="#!/JobControllerApi#updateScheduleForScenario">updateScheduleForScenario</a></li>
+          </ul>
+        </div>
+        <div class="section-box">
+          <div class="section-header">
+            <a href="#!/LoginControllerApi">LoginControllerApi</a>
+          </div>
+          <ul>
+            <li><a href="#!/LoginControllerApi#connectGlobal">connectGlobal</a></li>
+            <li><a href="#!/LoginControllerApi#getToken">getToken</a></li>
+            <li><a href="#!/LoginControllerApi#logoutGlobal">logoutGlobal</a></li>
+            <li><a href="#!/LoginControllerApi#logoutToken">logoutToken</a></li>
+          </ul>
+        </div>
+        <div class="section-box">
+          <div class="section-header">
+            <a href="#!/MappingControllerApi">MappingControllerApi</a>
+          </div>
+          <ul>
+            <li><a href="#!/MappingControllerApi#createMapping">createMapping</a></li>
+            <li><a href="#!/MappingControllerApi#deleteMappingById">deleteMappingById</a></li>
+            <li><a href="#!/MappingControllerApi#getAllMappingNames">getAllMappingNames</a></li>
+            <li><a href="#!/MappingControllerApi#getAllMappings">getAllMappings</a></li>
+            <li><a href="#!/MappingControllerApi#getDBFunctionsJSON">getDBFunctionsJSON</a></li>
+            <li><a href="#!/MappingControllerApi#getDataCleanseOptions">getDataCleanseOptions</a></li>
+            <li><a href="#!/MappingControllerApi#getDataTypes">getDataTypes</a></li>
+            <li><a href="#!/MappingControllerApi#getKMForNode">getKMForNode</a></li>
+            <li><a href="#!/MappingControllerApi#getLKMs">getLKMs</a></li>
+            <li><a href="#!/MappingControllerApi#getMappingById">getMappingById</a></li>
+            <li><a href="#!/MappingControllerApi#getMappingByName">getMappingByName</a></li>
+            <li><a href="#!/MappingControllerApi#getSupportedComponentTypes">getSupportedComponentTypes</a></li>
+            <li><a href="#!/MappingControllerApi#getSupportedIntegrationTypes">getSupportedIntegrationTypes</a></li>
+            <li><a href="#!/MappingControllerApi#renameMapping">renameMapping</a></li>
+            <li><a href="#!/MappingControllerApi#updateMapping">updateMapping</a></li>
+            <li><a href="#!/MappingControllerApi#validateExistingMapping">validateExistingMapping</a></li>
+            <li><a href="#!/MappingControllerApi#validateMappingById">validateMappingById</a></li>
+            <li><a href="#!/MappingControllerApi#validateMappingByName">validateMappingByName</a></li>
+            <li><a href="#!/MappingControllerApi#validateNewMapping">validateNewMapping</a></li>
+          </ul>
+        </div>
+        <div class="section-box">
+          <div class="section-header">
+            <a href="#!/MetadataIntegrationControllerApi">MetadataIntegrationControllerApi</a>
+          </div>
+          <ul>
+            <li><a href="#!/MetadataIntegrationControllerApi#saveAllMappings">saveAllMappings</a></li>
+            <li><a href="#!/MetadataIntegrationControllerApi#saveMappingById">saveMappingById</a></li>
+          </ul>
+        </div>
+        <div class="section-box">
+          <div class="section-header">
+            <a href="#!/ModelControllerApi">ModelControllerApi</a>
+          </div>
+          <ul>
+            <li><a href="#!/ModelControllerApi#createModel">createModel</a></li>
+            <li><a href="#!/ModelControllerApi#deleteModelById">deleteModelById</a></li>
+            <li><a href="#!/ModelControllerApi#getAllModelNames">getAllModelNames</a></li>
+            <li><a href="#!/ModelControllerApi#getAllModels">getAllModels</a></li>
+            <li><a href="#!/ModelControllerApi#getModelByCode">getModelByCode</a></li>
+            <li><a href="#!/ModelControllerApi#getModelById">getModelById</a></li>
+            <li><a href="#!/ModelControllerApi#getModelKM">getModelKM</a></li>
+            <li><a href="#!/ModelControllerApi#getModelsBySchemaId">getModelsBySchemaId</a></li>
+            <li><a href="#!/ModelControllerApi#getSupportedReverseObjectTypes">getSupportedReverseObjectTypes</a></li>
+            <li><a href="#!/ModelControllerApi#reverseEngineerModelCustom">reverseEngineerModelCustom</a></li>
+            <li><a href="#!/ModelControllerApi#reverseEngineerModelStandard">reverseEngineerModelStandard</a></li>
+            <li><a href="#!/ModelControllerApi#updateModel">updateModel</a></li>
+          </ul>
+        </div>
+        <div class="section-box">
+          <div class="section-header">
+            <a href="#!/PackageControllerApi">PackageControllerApi</a>
+          </div>
+          <ul>
+            <li><a href="#!/PackageControllerApi#createPackage">createPackage</a></li>
+            <li><a href="#!/PackageControllerApi#deletePackageById">deletePackageById</a></li>
+            <li><a href="#!/PackageControllerApi#getAllPackageNames">getAllPackageNames</a></li>
+            <li><a href="#!/PackageControllerApi#getAllPackages">getAllPackages</a></li>
+            <li><a href="#!/PackageControllerApi#getPackageById">getPackageById</a></li>
+            <li><a href="#!/PackageControllerApi#getPackageByName">getPackageByName</a></li>
+            <li><a href="#!/PackageControllerApi#renamePackage">renamePackage</a></li>
+            <li><a href="#!/PackageControllerApi#updatePackage">updatePackage</a></li>
+          </ul>
+        </div>
+        <div class="section-box">
+          <div class="section-header">
+            <a href="#!/ProjectControllerApi">ProjectControllerApi</a>
+          </div>
+          <ul>
+            <li><a href="#!/ProjectControllerApi#createProject">createProject</a></li>
+            <li><a href="#!/ProjectControllerApi#createProjectFolder">createProjectFolder</a></li>
+            <li><a href="#!/ProjectControllerApi#deleteProjectByCode">deleteProjectByCode</a></li>
+            <li><a href="#!/ProjectControllerApi#deleteProjectById">deleteProjectById</a></li>
+            <li><a href="#!/ProjectControllerApi#deleteProjectFolder">deleteProjectFolder</a></li>
+            <li><a href="#!/ProjectControllerApi#getAllProjectFolders">getAllProjectFolders</a></li>
+            <li><a href="#!/ProjectControllerApi#getAllProjectMappings">getAllProjectMappings</a></li>
+            <li><a href="#!/ProjectControllerApi#getAllProjectNames">getAllProjectNames</a></li>
+            <li><a href="#!/ProjectControllerApi#getAllProjectPackages">getAllProjectPackages</a></li>
+            <li><a href="#!/ProjectControllerApi#getAllProjects">getAllProjects</a></li>
+            <li><a href="#!/ProjectControllerApi#getAllProjects1">getAllProjects1</a></li>
+            <li><a href="#!/ProjectControllerApi#getProjectByCode">getProjectByCode</a></li>
+            <li><a href="#!/ProjectControllerApi#getProjectById">getProjectById</a></li>
+            <li><a href="#!/ProjectControllerApi#getProjectByName">getProjectByName</a></li>
+            <li><a href="#!/ProjectControllerApi#getProjectFolderById">getProjectFolderById</a></li>
+            <li><a href="#!/ProjectControllerApi#getProjectFolderByName">getProjectFolderByName</a></li>
+            <li><a href="#!/ProjectControllerApi#updateProject">updateProject</a></li>
+            <li><a href="#!/ProjectControllerApi#updateProjectFolder">updateProjectFolder</a></li>
+          </ul>
+        </div>
+        <div class="section-box">
+          <div class="section-header">
+            <a href="#!/ScenarioControllerApi">ScenarioControllerApi</a>
+          </div>
+          <ul>
+            <li><a href="#!/ScenarioControllerApi#deleteScenarioById">deleteScenarioById</a></li>
+            <li><a href="#!/ScenarioControllerApi#getAllScenarios1">getAllScenarios1</a></li>
+            <li><a href="#!/ScenarioControllerApi#getScenarioById1">getScenarioById1</a></li>
+            <li><a href="#!/ScenarioControllerApi#getScenarioByName">getScenarioByName</a></li>
+            <li><a href="#!/ScenarioControllerApi#getScenariosForMapping">getScenariosForMapping</a></li>
+            <li><a href="#!/ScenarioControllerApi#getScenariosForPackage">getScenariosForPackage</a></li>
+          </ul>
+        </div>
+        <div class="section-box">
+          <div class="section-header">
+            <a href="#!/TechnologyControllerApi">TechnologyControllerApi</a>
+          </div>
+          <ul>
+            <li><a href="#!/TechnologyControllerApi#getAllTechnologies1">getAllTechnologies1</a></li>
+            <li><a href="#!/TechnologyControllerApi#getConvertedDatatype">getConvertedDatatype</a></li>
+            <li><a href="#!/TechnologyControllerApi#getDatatypeConversion">getDatatypeConversion</a></li>
+            <li><a href="#!/TechnologyControllerApi#getDatatypesByTechno1">getDatatypesByTechno1</a></li>
+            <li><a href="#!/TechnologyControllerApi#getDefaultJDBCByTechno1">getDefaultJDBCByTechno1</a></li>
+            <li><a href="#!/TechnologyControllerApi#getFunctionsByTechno1">getFunctionsByTechno1</a></li>
+            <li><a href="#!/TechnologyControllerApi#getSupportedTechnologies1">getSupportedTechnologies1</a></li>
+          </ul>
+        </div>
+        <div class="section-box">
+          <div class="section-header">
+            <a href="#!/UploadOdiRepositoryControllerApi">UploadOdiRepositoryControllerApi</a>
+          </div>
+          <ul>
+            <li><a href="#!/UploadOdiRepositoryControllerApi#getImportRepoStatus">getImportRepoStatus</a></li>
+            <li><a href="#!/UploadOdiRepositoryControllerApi#isStudioManaged">isStudioManaged</a></li>
+            <li><a href="#!/UploadOdiRepositoryControllerApi#odiRepositoryImport">odiRepositoryImport</a></li>
+            <li><a href="#!/UploadOdiRepositoryControllerApi#odiRepositoryUpload">odiRepositoryUpload</a></li>
+            <li><a href="#!/UploadOdiRepositoryControllerApi#resetOdiRepository">resetOdiRepository</a></li>
+            <li><a href="#!/UploadOdiRepositoryControllerApi#validateExportFile">validateExportFile</a></li>
+          </ul>
+        </div>
+        <div class="section-box">
+          <div class="section-header">
+            <a href="#!/WalletControllerApi">WalletControllerApi</a>
+          </div>
+          <ul>
+            <li><a href="#!/WalletControllerApi#getServices">getServices</a></li>
+            <li><a href="#!/WalletControllerApi#processWallet">processWallet</a></li>
+            <li><a href="#!/WalletControllerApi#walletUpload">walletUpload</a></li>
+          </ul>
+        </div>
+      </div>
+    <div class="non-sidebar">
+      <div class="main-content">
+        <h2>Getting Started</h2>
+        <p>To begin using your fancy HTTP API, follow the steps below.</p>
+        <p>You can add some helpful tips, here</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
